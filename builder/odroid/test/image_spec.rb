@@ -30,7 +30,7 @@ describe "Raw Image" do
     end
 
     it "partition sda1 has a size of 64M" do
-      expect(stdout).to contain('^.*\.img1.* 64M  c.*$')
+      expect(stdout).to contain('^.*\.img1.* 512M  c.*$')
     end
   end
 end
