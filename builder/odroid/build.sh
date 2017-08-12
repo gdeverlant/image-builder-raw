@@ -9,7 +9,7 @@ fi
 ### setting up some important variables to control the build process
 BUILD_RESULT_PATH="/workspace"
 IMAGE_PATH="odroid-raw.img"
-SD_CARD_SIZE=1300
+SD_CARD_SIZE=2000
 BOOT_PARTITION_SIZE=512
 
 # create empty BOOT/ROOTFS image file
